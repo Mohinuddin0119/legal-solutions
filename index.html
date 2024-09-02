@@ -16,6 +16,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'btn-color':'#B68C5A',
               }
             }
           }
@@ -28,8 +29,8 @@
         }
       </style>
 </head>
-<body>
-    <header>
+<body class="">
+    <header class="container mx-auto">
         <nav>
             <div class="navbar">
                 <div class="navbar-start">
@@ -58,7 +59,9 @@
                       <li><a>Contact Us</a></li>
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-xl">Justice</a>
+                  <div>
+                    <img class="w-28" src="./images/logo2.png" alt="">
+                  </div>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
@@ -77,14 +80,40 @@
                     </a></li>
                   </ul>
                 </div>
-                <div class="navbar-end">
-                  <a class="btn btn-error">Free Consultation</a>
+                <div class="">
+                  <a class="btn bg-btn-color text-white border-none">Free Consultation</a>
                 </div>
               </div>
         </nav>
     </header>
-    <main>
-
+    <main class="container mx-auto">
+      <section class="my-10">
+        <div>
+          <div
+          class="min-h-screen bg-no-repeat"
+          style="background-image: url('./images/banner.png');"
+          ></div>
+          <div class="space-y-5">
+          <h2 class="text-5xl font-bold">We Provide Effective <br> Legal Solutions</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+          <div class=" min-h-screen">
+            <div class="flex justify-center items-baseline">
+              <div class=" ">
+                <form class="p-5">
+                  <div class="">
+                    <input type="" placeholder="Search your services" class="input input-bordered bg-white w-80" required />
+                  </div>                
+              </div>
+              <div class="">
+                  <button class="btn bg-btn-color w-40 text-white border-none">Search</button>
+              </div>
+                </form>
+             </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
 
